@@ -1,5 +1,5 @@
 {
-  "name": "sizelog-middleware",
+  "name": "s-sizelog-middleware",
   "dependencies": {
     "defaults": "~1.0.0",
     "extend": "~1.2.1",
