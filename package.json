@@ -1,9 +1,12 @@
 {
   "name": "sizelog-middleware",
-  "private": true,
   "dependencies": {
     "defaults": "~1.0.0",
     "extend": "~1.2.1",
     "bytes": "~0.2.1"
+  },
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://registry.segment.io"
   }
 }
