@@ -1,7 +1,7 @@
 
+var onResponse = require('s-on-response');
 var defaults = require('defaults');
 var extend = require('extend');
-var onResponse = require('on-response');
 var bytes = require('bytes');
 
 
