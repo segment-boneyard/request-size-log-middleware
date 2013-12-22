@@ -1,13 +1,10 @@
 {
-  "name": "s-sizelog-middleware",
+  "name": "request-size-log-middleware",
+  "version": "1.0.0",
   "dependencies": {
-    "s-on-response": "1.x",
+    "on-response": "1.x",
     "defaults": "~1.0.0",
     "extend": "~1.2.1",
     "bytes": "~0.2.1"
-  },
-  "version": "1.0.0",
-  "publishConfig": {
-    "registry": "https://registry.segment.io"
   }
 }

@@ -1,11 +1,11 @@
-# size-middleware
+# request-size-log-middleware
 
-    A size log middleware that will log when a request size or a response size is too large.
+  Log a request if the request body or response body is too large.
 
 ## Example
 
 ```js
-var sizeLog = require('sizelog-middleware);
+var sizeLog = require('request-size-log-middleware');
 var logger = new require('winston').Logger();
 
 var app = express();
@@ -19,7 +19,7 @@ app.configure('production', function () {
 
 ### sizeLog(logger, thresholds)
 
-    Return a sizelog middleware with custom `thresholds`:
+  Return a sizelog middleware with custom `thresholds`:
 
 ```js
 {
@@ -28,3 +28,18 @@ app.configure('production', function () {
 }
 ```
 
+
+## License
+
+```
+WWWWWW||WWWWWW
+ W W W||W W W
+      ||
+    ( OO )__________
+     /  |           \
+    /o o|    MIT     \
+    \___/||_||__||_|| *
+         || ||  || ||
+        _||_|| _||_||
+       (__|__|(__|__|
+```

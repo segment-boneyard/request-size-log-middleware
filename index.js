@@ -1,16 +1,14 @@
 
-var onResponse = require('s-on-response');
+var onResponse = require('on-response');
 var defaults = require('defaults');
 var extend = require('extend');
 var bytes = require('bytes');
-
 
 /**
  * Expose `generate`.
  */
 
 module.exports = generate;
-
 
 /**
  * Generate a size log middleware.
@@ -55,7 +53,6 @@ function generate (logger, thresholds) {
   };
 }
 
-
 /**
  * Returns the level at which a `val` exceeds any of the
  * `thresholds`.
@@ -77,7 +74,6 @@ function exceeds (val, levels, thresholds) {
   return null;
 }
 
-
 /**
  * Formats the request log message.
  *
@@ -91,7 +87,6 @@ function reqFormat (summary) {
   return 'Very large request (' + bytes(request.size) + '): ' +
     request.method + ' ' + request.url + ' ' + response.status;
 }
-
 
 /**
  * Formats the response log message.
