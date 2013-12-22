@@ -1,6 +1,6 @@
 # request-size-log-middleware
 
-  Log a request if the request body or response body is too large.
+  Log an [express](https://github.com/visionmedia/express) request if the request body or response body is too large.
 
 ## Example
 
