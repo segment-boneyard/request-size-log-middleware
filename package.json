@@ -1,6 +1,10 @@
 {
   "name": "request-size-log-middleware",
   "version": "1.0.1",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/segmentio/npm.git"
+  },
   "dependencies": {
     "on-response": "~1.0.1",
     "defaults": "~1.0.0",
